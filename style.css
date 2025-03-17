@@ -1,0 +1,101 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+body {
+    background-color: rgb(30, 30, 30);
+    padding-top: 80px;
+    display: flex;
+    justify-content: center;
+}
+
+.container {
+    max-width: 960px;
+    width: 90%;
+    background-color:#d7e8e8;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+header {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+    margin-bottom: 30px;
+}
+
+header h1 {
+    font-size: 36px;
+    font-weight: bold;
+    margin-left: 315px;
+    
+}
+
+form {
+    display: flex;
+    flex-wrap: wrap;  
+    gap: 10px;
+    max-width: 100%;
+    margin-bottom: 20px;
+    
+}
+
+form input {
+    flex: 1;
+    font-size: 18px;
+    padding: 10px;
+    border: 2px solid #ccc;
+    border-radius: 5px;
+    transition: border-color 0.3s;
+}
+
+form input:focus {
+    border-color: #1c98b7;
+    outline: none;
+}
+
+form button {
+    background-color: #304c84;
+    color: #fff;
+    font-size: 18px;
+    font-weight: bold;
+    border: none;
+    cursor: pointer;
+    padding: 10px 16px;
+    border-radius: 5px;
+    transition: background 0.3s;
+    width: 40%;
+}
+
+form button:hover {
+    background-color: #2280c3;
+}
+
+table {
+    width: 100%;
+    margin-top: 20px;
+    border-radius: 6px;
+
+}
+
+table th, table td {
+    padding: 12px;
+    text-align: center;
+}
+
+table th {
+    background-color: #2e4354;
+    color: #fff;
+    font-size: 18px;
+    border-radius: 6px;
+}
+
+table td {
+    font-size: 16px;
+    border-bottom: 1px solid #ddd;
+    border-radius: 6px;
+}
